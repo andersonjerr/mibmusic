@@ -51,7 +51,7 @@
   .hero-text{position:relative;padding:80px 0}
   .eyebrow{font-size:.78rem;letter-spacing:.32em;text-transform:uppercase;color:var(--gold);margin-bottom:22px}
   .hero h1{font-size:clamp(3.2rem,7vw,6.2rem);letter-spacing:.02em}
-  .hero h1 em{font-style:italic;font-weight:400;color:var(--gold-2)}
+  .hero h1 em{font-style:italic;font-weight:400;color:var(--gold-2)} .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap} .hero-logo{width:min(420px,80%);height:auto;margin:-10px 0 0 -18px;filter:drop-shadow(0 0 18px rgba(217,154,43,.25))} @media (max-width:860px){.hero-logo{width:min(320px,85%);margin-left:-12px}}
   .hero p.lede{font-size:1.15rem;color:var(--ink-2);max-width:32em;margin:26px 0 36px}
   .btn{display:inline-block;padding:14px 30px;border:1px solid var(--gold);color:var(--gold-2);font-size:.8rem;letter-spacing:.22em;text-transform:uppercase;transition:.2s}
   .btn:hover{background:var(--gold);color:#1a1409;text-decoration:none}
@@ -154,7 +154,7 @@
 <header class="hero wrap" id="top">
   <div class="hero-text">
     <div class="eyebrow">Violin &amp; Viola &nbsp;·&nbsp; DC Metro &amp; Chicago</div>
-    <h1>Maya<br><em>Brown</em></h1>
+    <h1 class="sr">Maya Brown</h1><img class="hero-logo" src="img/mibmusic-logo.png" alt="MIB Music — Maya Brown" width="533" height="378" fetchpriority="high">
     <p class="lede">A violinist and violist whose artistry moves fluidly across classical, hip-hop/R&amp;B, and gospel traditions — soloist, chamber musician, and teacher.</p>
     <a class="btn" href="#contact">Book Maya</a>
     <a class="btn" href="#performances">Upcoming Shows</a>
